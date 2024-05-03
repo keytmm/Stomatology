@@ -1,0 +1,68 @@
+html, body { margin: 0; }
+
+body {
+  background: #fff;
+  color: black;
+}
+.table th {
+    background: lightgrey; /* Цвет текста для заголовков */
+}
+.groupHistory {
+    border: 1px solid #ccc; /* Граница */\
+    border-radius: 5%;
+    padding: 1% 3%; /* Отступ внутри элемента */
+    margin-top: 1%; /* Отступ снизу */
+    background-color: #f9f9f9; /* Цвет фона */
+}
+
+.groupHistory p {
+    margin: 0; /* Убираем внешний отступ у абзацев */
+}
+
+.groupHistory p:last-child {
+    margin-bottom: 0; /* Убираем внешний отступ у последнего абзаца */
+}
+.NameDate {
+display: flex; 
+align-items: center; 
+justify-content: space-between; 
+}
+.navbar{
+    background: #054023;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    color: #ffffff;
+    }
+.navbar-brand{
+    color: #ffffff;
+}
+.nav-link{
+    margin-right: 1em;
+    color: #ffffff;
+}
+.nav-link:hover{
+    background: #f4f4f4;
+    color: #054023;
+    border-radius: 3px;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar-toggler{
+    background: #fff;
+}
+.custom-btn{
+    background: #fff !important;
+    color: black;
+    border: 1px solid;
+    border-color: black;
+}
+.appointment-exists {
+    background-color: gray !important;
+    color: white;
+    pointer-events: none;
+}
+.schedule{
+    padding-left: 5%;
+}
